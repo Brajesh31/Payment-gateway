@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+.Background {
+  background-image: url("./assets/bg_pxfuel.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  padding: 10px;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.55);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 150px;
+  border-radius: 16px;
+}
+
+button {
+  margin-top: 25px;
+  padding: 10px 25px;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px 24px;
+  border-radius: 5px;
+  border: none;
+  color: #D94203;
+  background-color: #FEF698;
+  font-weight: 700;
+}
+
+.input {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;  
+}
+
+label {
+  color: #6A040A;
+  font-weight: 700;
+}
+
+input {
+  border: none;
+  padding: 4px 20px;
+  margin: 0 0 0 5px;
+  border-radius: 4px;
+}
